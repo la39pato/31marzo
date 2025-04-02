@@ -1,4 +1,4 @@
-div {
+/* div {
     width: 250px;
     height: 250px;
     background-color: plum;
@@ -94,4 +94,81 @@ p::first-letter {
 
 .padre p{
     color: red
+} */
+/* 
+p#unico.foo{
+    color: rgb(179, 51, 51);
+} 
+
+p#unico.foo.bar{
+    color: rgb(72, 154, 72);
+}
+
+p#unico.foo.bar.baz{
+    color: rgb(22, 152, 185)!important;
+}
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: rgb(180, 43, 43);
+    font-weight: bold;
+}
+
+.rectangulo {
+    width: 450px;
+    height: 25px;
+    background-color: orange;
+}
+
+.caja {
+    width: 50%;
+    height: 250px;
+    background-color: rgb(15,125,36);
+}
+.cajainterior {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(208, 32, 199);
+}
+
+.cajainterior p {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+} */
+/* *{
+    margin: 0;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+} */
+
+*{
+    margin: 0;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    background-color: lavender;
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+    padding: 25px;
+    /* border-top: 2px solid rgb(4, 44, 84);
+    border-bottom: 2px solid rgb(4, 44, 84);
+    border-left: 2px solid rgb(4, 44, 84);
+    border-right: 2px solid rgb(4, 44, 84); */
+    border: 2px solid rgb(4, 44, 84);
+    margin: 25px;
+
 }
